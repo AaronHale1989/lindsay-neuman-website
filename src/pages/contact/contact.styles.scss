@@ -1,0 +1,23 @@
+.form-container {
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Muli', sans-serif;
+
+    .message {
+        height:150px;
+    }
+    
+}
+
+.main-form {
+    margin-top:100px;
+    width:70%;
+}
+
+
+.button-container {
+    display:flex;
+    justify-content: center;
+    margin-top:30px;
+}

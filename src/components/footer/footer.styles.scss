@@ -1,0 +1,32 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color: #000000;
+
+      .footer-options {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        text-decoration:none;
+    
+        .footer-option {
+            padding-left:20px;
+            padding-right:20px;
+            margin-bottom:50px;
+            text-decoration: none;
+            color:white;
+
+            a {
+              color:inherit;
+            }
+
+            a:hover {
+              opacity:0.5;
+            }
+        }
+        
+      }
+}
