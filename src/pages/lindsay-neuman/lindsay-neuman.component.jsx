@@ -10,7 +10,7 @@ const LindsayNeuman = () => (
         </div>
         <div className='main-bio'>
             <div className='bio-photo'>
-                <img src="./puppies.jpg" alt="puppies"/>
+                <img src="./images/puppies.jpg" alt="puppies"/>
             </div>
             <div className='bio'>
                 <p>Lindsay Neuman loves to help people pivot. But what is a pivot anyway?  Other than a great dance move, it’s a way to change your perspective and change your outcome. Lindsay leads her life according to this guiding principle.  That is what makes her perfect to ‘make it happen’ for you.  Her zest for life is contagious and she loves to help people find their happy place.  Like, literally, find their happy place!

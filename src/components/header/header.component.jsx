@@ -7,7 +7,7 @@ import './header.styles.scss';
 const Header = () => (
     <div className='header'>
         <div className='logo-container'>
-            <Link to='/'>LH</Link>
+            <Link className='logo' to='/'>LN</Link>
         </div>
         <div className='options'>
             <Link to='/lindsay-neuman' className="option">
@@ -20,10 +20,10 @@ const Header = () => (
                 PODCAST
             </Link>
             <div className="option">
-               <a href="https://www.compass.com/agents/philadelphia/lindsay-gordon/" target='_blank' rel="noopener noreferrer">REAL ESTATE</a>
+               <a href="https://www.compass.com/agents/lindsay-neuman/" target='_blank' rel="noopener noreferrer">REAL ESTATE</a>
             </div>
             <Link className="option" to='/contact'>
-                CONTACT
+                LET'S CONNECT
             </Link>
         </div>
     </div>
