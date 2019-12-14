@@ -13,3 +13,12 @@
 img {
     border: 3px solid grey;
 }
+
+@media (max-width: 768px){
+    .carousel-control-next{
+         margin-right: -58px;
+    }
+    .carousel-control-prev {
+        margin-left: -55px;
+    }     
+}

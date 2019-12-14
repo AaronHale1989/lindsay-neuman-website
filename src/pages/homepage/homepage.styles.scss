@@ -7,5 +7,23 @@
     background-color: #000000;
   }
 
+  @media (max-width: 768px){
+    .homepage {
+      display:flex;
+      align-items: center;
+    }
+    .carousel{
+      width:100%;
+
+      .carousel-item{
+        img{
+          width:550px;
+          height:367px;
+          margin-left: -100px;
+        }
+      }
+    }
+  }
+
 
  

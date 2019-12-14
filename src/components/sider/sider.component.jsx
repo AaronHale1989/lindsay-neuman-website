@@ -1,16 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import SiderButton from '../sider/siderButton.component';
 
+import './sider.styles.scss'
 
-import './header.styles.scss';
-
-const Header = props => (
-    <div className='header'>
-        <div className='logo-container'>
-            <Link className='logo' to='/'>LN</Link>
-        </div>
-        <div className='options'>
+const Sider = props => (
+    <nav className='sider'>
+         <div className='options'>
             <Link to='/lindsay-neuman' className="option">
                 LINDSAY NEUMAN
             </Link>
@@ -26,9 +21,8 @@ const Header = props => (
             <Link className="option" to='/contact'>
                 LET'S CONNECT
             </Link>
-            <SiderButton click={props.siderClickHandler} className='toggle-sider-button'/>
-        </div>
-    </div>
+        </div>  
+    </nav>
 );
 
-export default Header;
+export default Sider
