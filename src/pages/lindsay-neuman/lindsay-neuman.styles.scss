@@ -47,4 +47,22 @@
     font-family: 'Muli', sans-serif;
 }
 
+@media (max-width: 768px){
+    .bio-container{
 
+        .bio-photo{
+            display:none;
+        }
+    }
+
+    .bio-title{
+        margin-left:0px;
+        margin-bottom:10px;
+    }
+
+    .bio{
+        margin-right:0px;
+        width:100%;
+        padding:20px;
+    }
+}
