@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
+import PropTypes from 'prop-types';
 import Footer from './components/footer/footer.component';
 
 import HomePage from './pages/homepage/homepage.component';
@@ -46,12 +47,16 @@ class App extends Component {
           <Route exact path='/lindsay-neuman' component={LindsayNeuman}/>
           <Route exact path='/blog' component={ Blog }/>
           <Route exact path='/podcast' component={ Podcast }/>
-          <Route exact path='/contact' component={ Contact }/>
+          <Route exact path='/contact' render={(props) => <Contact {...props} env={this.props.env}/>}/>
         </Switch>
        <Footer/>
     </div>
     )
   };
 }
+
+App.propTypes = {
+  env: PropTypes.object.isRequired
+};
 
 export default App;
